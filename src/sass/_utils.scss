@@ -1,0 +1,12 @@
+@layer utilities{
+    .container{
+        @apply w-[90vw] md:max-w-[85vw]
+    }
+    .btn{
+        @apply px-2 md:px-4 py-1 md:py-2 hover:opacity-95 text-sm uppercase
+    }
+    .arrow-span{
+        @apply bg-black rounded-full text-white p-1
+    }
+    
+}
